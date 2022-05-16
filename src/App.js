@@ -1,8 +1,8 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 // Ant-design components
-import { Layout, Typography, Space, Row } from 'antd';
+import { Layout, Typography, Row } from 'antd';
 
 // Custom Components
 import { NavBar, Homepage, Exchanges, CryptoCurrencies, CryptoDetails } from './components';

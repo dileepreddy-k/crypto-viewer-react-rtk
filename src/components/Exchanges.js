@@ -7,7 +7,7 @@ import { Loader, ErrorModal } from './index';
 
 const Exchanges = () => {
 	
-	const { data, isFetching, error } = useGetCryptoExchangesQuery();
+	const { isFetching, error } = useGetCryptoExchangesQuery();
 
 	if(isFetching) return <Loader />;
 
